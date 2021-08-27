@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar close" id="sidebar">
+        <a href="/" class="logo-details">
+          <div class="logo">
+            <img src="./image/logo.ico" />
+          </div>
+          <span class="logo_name">Cypto Gems</span>
+        </a>
+        <ul class="nav-links">
+          <li>
+            <a href="/">
+              <i class="bx bx-grid-alt"></i>
+              <span class="link_name">Dashboard</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/">Dashboard</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a>
+                <i class="bx bx-wallet"></i>
+                <span class="link_name">My Wallet</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name">My Wallet</a></li>
+              <li><a onclick="myWallet('BSC')">BSC</a></li>
+              <li><a onclick="myWallet('ETH')">ETH</a></li>
+              <li><a onclick="myWallet('MATIC')">MATIC</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/contact">
+              <i class="bx bxs-contact"></i>
+              <span class="link_name">Contact Us</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/contact">Contact Us</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/airdrop">
+              <i class="bx bx-message-alt"></i>
+              <span class="link_name">Airdrop</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/airdrop">Airdrop</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://t.me/cryptogemsin" target="_blank">
+              <i class="bx bxl-telegram"></i>
+              <span class="link_name">Telegram</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li>
+                <a
+                  class="link_name"
+                  href="https://t.me/cryptogemsin"
+                  target="_blank"
+                  >Telegram</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://twitter.com/Airdropz999" target="_blank">
+              <i class="bx bxl-twitter"></i>
+              <span class="link_name">Twitter</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li>
+                <a
+                  class="link_name"
+                  href="https://twitter.com/Airdropz999"
+                  target="_blank"
+                  >Twitter</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <main class="home-section">
+        <div class="main-container">
+          <div class="home-content">
+            <i class="bx bx-menu"></i>
+          </div>
+          <div class="flex">
+            <div class="contact-container">
+              <div class="inner-wrapper">
+                <h2>Advertising</h2>
+                <p>
+                  Want to promote your project? We offer Promoted Coin spots and
+                  Banner Ad spots. For prices and information, please email us
+                  at:
+                </p>
+                <a href="mailto:admin@cryptogems.in ">admin@cryptogems.in</a>
+              </div>
+            </div>
+            <div class="contact-container">
+              <div class="inner-wrapper">
+                <h2>General Support</h2>
+                <p>
+                  For general questions, bug report and suggestions please email
+                  us at:
+                </p>
+                <a href="mailto:cryptogemsin@gmail.com"
+                  >cryptogemsin@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
